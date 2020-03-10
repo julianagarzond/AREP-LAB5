@@ -8,8 +8,8 @@ import javax.imageio.ImageIO;
 import javax.swing.SpringLayout.Constraints;
 
 import java.awt.Desktop;
-	import java.awt.image.BufferedImage;
-	import java.io.*;
+import java.awt.image.BufferedImage;
+import java.io.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
