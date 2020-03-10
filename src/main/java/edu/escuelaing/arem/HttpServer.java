@@ -23,7 +23,7 @@ import java.lang.reflect.Method;
 		import java.awt.image.BufferedImage;
 		import java.io.*;
 
-		public class HttpServer {
+		public class HttpServer implements Runnable {
 			 public static void main(String[] args) throws IOException, ClassNotFoundException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 			        while(true){
 			            ServerSocket serverSocket = null;
@@ -174,6 +174,10 @@ import java.lang.reflect.Method;
 		        }
 		        return 36000;
 		    }
-		    
+
+			@Override
+			public void run() {
+
+			}
 		}
 
